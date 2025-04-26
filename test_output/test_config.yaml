@@ -1,0 +1,21 @@
+
+logging:
+  level: DEBUG
+  file: test.log
+
+output:
+  directory: test_output
+
+extraction:
+  frame_interval: 1
+  slide_threshold: 0.9
+
+processing:
+  similarity_threshold: 0.9
+  cache_size: 100
+
+document:
+  title: "테스트 문서"
+  image_width: 5.0
+  font_size: 10
+  line_spacing: 1.2

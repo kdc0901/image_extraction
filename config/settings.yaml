@@ -1,0 +1,31 @@
+# YouTube 처리 설정
+youtube:
+  download_path: "output/videos"
+  max_resolution: 1080
+  audio_quality: "high"
+
+# 이미지 처리 설정
+image:
+  output_path: "output/images"
+  min_quality: 0.8
+  max_size: 1920
+  formats: ["jpg", "png"]
+
+# 문서 처리 설정
+document:
+  output_path: "output/documents"
+  template_path: "templates"
+  formats: ["docx", "pdf"]
+
+# 로깅 설정
+logging:
+  level: "INFO"
+  file: "logs/processor.log"
+  max_size: 10485760  # 10MB
+  backup_count: 5
+
+# 중복 제거 설정
+deduplication:
+  similarity_threshold: 0.95
+  method: "content_hash"  # content_hash or perceptual_hash
+  cache_size: 1000 

@@ -1,0 +1,28 @@
+document:
+  font_size: 11
+  image_width: 6.0
+  line_spacing: 1.5
+  title: YouTube 동영상 처리 결과
+download:
+  resolution: 720p
+extraction:
+  frame_interval: 30
+  save_interval: 30
+  slide_threshold: 0.95
+  text_interval: 30
+gui:
+  keep_video: false
+  last_output_dir: /Volumes/(기존4T) 외장 hdd/__output(movie)
+logging:
+  file: youtube_processor.log
+  level: INFO
+output:
+  directory: output
+processing:
+  cache_size: 1000
+  similarity_threshold: 0.95
+summarization:
+  key_points_count: 3
+  max_sentence_length: 200
+  min_sentence_length: 5
+  summary_ratio: 0.3

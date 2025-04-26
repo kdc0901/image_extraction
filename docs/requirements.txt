@@ -1,0 +1,52 @@
+# 비디오 처리
+opencv-python>=4.5.0
+moviepy>=1.0.3
+numpy>=1.19.0
+
+# 텍스트 처리
+pytesseract>=0.3.8
+langdetect>=1.0.9
+nltk>=3.6.0
+
+# 문서 처리
+python-docx>=0.8.11
+Pillow>=8.0.0
+
+# 유틸리티
+tqdm>=4.50.0
+pathlib>=1.0.1
+scikit-image>=0.17.2
+
+# 영상 처리
+youtube-dl>=2021.12.17
+pytube>=12.1.0
+opencv-python>=4.7.0
+Pillow>=8.0.0
+
+# 텍스트 처리
+spacy>=3.0.0
+transformers>=4.28.0
+
+# 문서 처리
+PyPDF2>=2.0.0
+python-pptx>=0.6.21
+
+# 유틸리티
+requests>=2.26.0
+beautifulsoup4>=4.10.0
+
+numpy>=1.24.0
+matplotlib>=3.3.0
+pytest>=7.3.1
+pytest-cov>=2.10.0
+black>=23.3.0
+flake8>=6.0.0
+mypy>=1.2.0
+face_recognition>=1.3.0
+pdf2image>=1.16.3
+colorama>=0.4.6
+rich>=13.3.5
+click>=8.1.3
+pyyaml>=6.0
+python-magic>=0.4.27
+isort>=5.12.0 
