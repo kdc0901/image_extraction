@@ -11,7 +11,7 @@ extraction:
   slide_threshold: 0.95
   text_interval: 30
 gui:
-  keep_video: false
+  keep_video: true
   last_output_dir: /Volumes/(기존4T) 외장 hdd/__output(movie)
 logging:
   file: youtube_processor.log
